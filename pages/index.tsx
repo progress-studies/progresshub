@@ -12,7 +12,8 @@ interface RichLinkContent {
 }
 const RichLink = (props: RichLinkContent) => (
   <li>
-    <a href={props.href}>{props.title} </a>({props.author}, {props.date})
+    <a href={props.href}>{props.title} </a>
+    {"(" + props.author + ", " + props.date + ")"}
   </li>
 );
 

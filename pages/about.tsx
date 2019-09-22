@@ -7,17 +7,15 @@ const TwitterLink = props => (
 const About = () => (
   <>
     <TopNav />
-
     <Container>
       <br />
-
       <p>
         Progress Hub is a links aggregator that aims to collect in a single
         place all sorts of resources related to Progress Studies
       </p>
       <p>
         It was started by{" "}
-        <TwitterLink username="ArtirKel" name="Jose Luis Ricon" /> and{" "}
+        <TwitterLink username="ArtirKel" name="José Luis Ricón" /> and{" "}
         <TwitterLink username="j_asminewang" name="Jasmine Wang" />
       </p>
     </Container>

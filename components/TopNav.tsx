@@ -13,7 +13,8 @@ const TopNav = () => (
       />
       <title>Progress Hub</title>
     </Head>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
+    <Navbar collapseOnSelect expand="lg" id="navbar" variant="dark">
       <Nav.Item>
         <Link href="/">
           <Navbar.Brand href="/">Progress Hub</Navbar.Brand>
@@ -30,6 +31,14 @@ const TopNav = () => (
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    <style jsx global>{`
+      #navbar {
+        background-color: #50a;
+      }
+      .nav-link {
+        opacity: 0.9;
+      }
+    `}</style>
   </>
 );
 export default TopNav;
